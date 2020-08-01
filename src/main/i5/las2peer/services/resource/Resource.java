@@ -71,9 +71,9 @@ public class Resource extends RESTService {
 
   @Api
   @SwaggerDefinition(
-      info = @Info(title = "178", version = "$Metadata_Version$",
-          description = "$Metadata_Description$",
-          termsOfService = "$Metadata_Terms$",
+      info = @Info(title = "178", version = "",
+          description = "",
+          termsOfService = "",
           contact = @Contact(name = "", email = "CAEAddress@gmail.com") ,
           license = @License(name = "BSD",
               url = "https://github.com/PhilCAEOrg/microservice-178/blob/master/LICENSE.txt") ) )
@@ -97,7 +97,7 @@ public class Resource extends RESTService {
   @Produces(MediaType.APPLICATION_JSON)
   @Consumes(MediaType.TEXT_PLAIN)
   @ApiResponses(value = {
-       @ApiResponse(code = HttpURLConnection.HTTP_OK, message = "response")
+       @ApiResponse(code = HttpURLConnection.HTTP_OK, message = "respons")
   })
   @ApiOperation(value = "", notes = " ")
   public Response (String payload) {
@@ -114,9 +114,9 @@ public class Resource extends RESTService {
 
 
 
-    // response
-    boolean response_condition = true;
-    if(response_condition) {
+    // respons
+    boolean respons_condition = true;
+    if(respons_condition) {
       JSONObject result = new JSONObject();
 
       
